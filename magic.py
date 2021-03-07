@@ -153,8 +153,8 @@ def tweet():
     except:
         print("Error during authentication")
 
-    year = 2021
-    performance = str('10%')
+    #year = 2021 capture from google sheet
+    #performance = capture from google sheet
     api.update_status("{} Performance Was {}".format(year,performance))
     print("done")
 
@@ -173,7 +173,7 @@ def checkDate():
     delta = (nd2-nd1).days
 
     
-    if newdate2 > newdate1 and delta >= 0:
+    if newdate2 > newdate1 and delta >= 365:
         print('Updating GoogleSheet with Names, Tikrs, Units')
         updateGSheet()
         #tweet()
