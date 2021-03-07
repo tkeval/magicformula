@@ -178,7 +178,7 @@ def checkDate():
         updateGSheet()
         #tweet()
     else:
-        print("Today's Date is {} okay".format(date1))
+        print("Today's Date is {}. It is not yet long enough to update Magic Formula Investing sheet".format(date2))
         exit()
 
     
