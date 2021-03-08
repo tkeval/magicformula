@@ -6,8 +6,8 @@ Since backtesting of Magic Formula investing apprach has shown significant outpe
 Google Sheet: https://docs.google.com/spreadsheets/d/1No1W945Sxn_0FMdkLAGmhdhzi1qxSPhyEHljfc-PXWc/edit?usp=sharing
 
 Magic Investing Rules: 
-1) Buy ~30 stocks based on the magic formula filter (for the sake of 
-simplicity will buy all of these stocks at once rather than accumulating over several months)
+1) Buy ~30 stocks based on the magic formula filter. For the sake of 
+simplicity, will buy all of these stocks at once rather than accumulating over several months. It's assumed the stocks are held in tax-free account to avoid complexity of having to sell loss on 364th day and gains on 366th day.  
 
 2) Replace all stocks on 366th day with the new list from magicformula site
 
