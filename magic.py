@@ -1,26 +1,36 @@
-import os 
+""" The purpose of this script is to track returns on the magic formula filter.
+The magic formula filter unfortunately does not provide any statistics on returns.
+Hence, this script is intended to track and record returns over long period of time.
+
+'''
+Magic Investing Rules:
+1) Buy 20 to 30 stocks based on the magic formula filter (for the sake of
+simplicity will buy all of these stocks at once rather than accumulating over several months)
+
+2) Replace all stocks on 366th day with the new list from magicformula site
+'''
+
+"""
+
+
+
+import os
 import tweepy
-import time, datetime  #Sys date and time
+import time, datetime
  
 from re import sub
 from decimal import Decimal
 from google.oauth2.service_account import Credentials
 
-#Selenium library to interact with browser 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support.ui import WebDriverWait
 
 import gspread
 from google.oauth2.service_account import Credentials
 
-'''
-Magic Investing Rules: 
-1) Buy 20 to 30 stocks based on the magic formula filter (for the sake of 
-simplicity will buy all of these stocks at once rather than accumulating over several months)
 
-2) Replace all stocks on 366th day with the new list from magicformula site
-'''
 
 os.chdir("C:\\Python\\magic")
 

@@ -2,7 +2,7 @@
 
 The purpose of this repository is to track investment returns over long term. 
 Magic formula is a strategy created by Joel Greenblatt. It's a hybrid quantitative model that incorporates Benjamin Graham and Warren Buffett's value ivesting approach. 
-Since backtesting of Magic Formula investing apprach has shown significant outperformance of the market (24%), I created this tracker to track the performance for the long term. Please note, in recent years, the magic formula has actually lagged the market. The purpose of this tracker is only due to curiosity. The performance will be shared on @magicformulainv 
+Since backtesting of Magic Formula investing approach has shown significant outperformance of the market (24%), I created this tracker to track the performance for the long term. Please note, in recent years, the magic formula has actually lagged the market. The purpose of this tracker is only due to curiosity. The performance will be shared on @magicformulainv 
 Google Sheet: https://docs.google.com/spreadsheets/d/1No1W945Sxn_0FMdkLAGmhdhzi1qxSPhyEHljfc-PXWc/edit?usp=sharing
 
 Magic Formula Investing Rules: 
@@ -13,6 +13,7 @@ simplicity, will buy all of these stocks at once rather than accumulating over s
 
 
 ** functions to add: 
-1) Performance Calculator (first init and then for revolving fund for subsequent years)
-2) review and code clean up? 
+1) Convert to Pandas DataFrame, for data storage/structure 
+2) Performance Calculator (first init and then for revolving fund for subsequent years)
+
 
